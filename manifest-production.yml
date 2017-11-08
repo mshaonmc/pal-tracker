@@ -5,3 +5,5 @@ applications:
   host: mjs-pal-tracker
 #  env:
 #    WELCOME_MESSAGE: Hello from Cloud Foundry
+  services:
+  - tracker-database
