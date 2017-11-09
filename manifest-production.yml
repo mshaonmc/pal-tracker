@@ -3,7 +3,8 @@ applications:
 - name: pal-tracker
   path: build/libs/pal-tracker.jar
   host: mjs-pal-tracker
-#  env:
+  env:
+     SECURITY_FORCE_HTTPS: true
 #    WELCOME_MESSAGE: Hello from Cloud Foundry
   services:
   - tracker-database
